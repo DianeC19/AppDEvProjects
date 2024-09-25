@@ -4,8 +4,7 @@ export default function header(){
 
        <>
        <header>
-       <h1><center>My Counter Project</center>
-       </h1></header>
+       <h1><center>My Counter Project</center></h1></header>
        <hr/>
        </>
 
