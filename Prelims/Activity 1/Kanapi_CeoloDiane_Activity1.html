@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    <form onsubmit="return processForm()">
+        <label for = "name">Enter your name: </label>
+        <input type="text" name="name" id="name" required>
+        <button type="submit"> Submit </button>
+    </form> -->
+
+    <h1>Activity Guide #1</h1>
+    <!--Start of Item 1-->
+    Name: <input type="text" id="name"><br />
+    Complete Address: <input type="text" id="address"><br />
+    Telephone Number: <input type="text" id="telephone"><br />
+    Major: <input type="text" id="major"><br />
+    <button id="btn1"> Submit</button>
+    <p id="output"></p>
+
+    <!--End of Item 1-->
+
+   
+
+    
+
+    <h1>Activity Guide #2</h1>
+    <!--Start of Item 2-->
+    <p>Enter the projected total sales amount:</p>
+    <input type="number" id="salesInput" placeholder="Enter sales amount">
+    <button onclick="calculateProfit()">Calculate Profit</button>
+    <p id="profitOutput"></p>
+
+    <!--End of Item 2-->
+
+
+
+    <!--Start of Item 3-->
+    <h1>Activity Guide #3</h1>
+    A car is traveling at 60 miles per hour.<br>
+    • The distance the car will travel in 5 hours is:<p id="output21"></p> <br>
+    • The distance the car will travel in 8 hours is:<p id="output22"></p> <br>
+    • The distance the car will travel in 12 hours is:<p id="output222"></p> <br>
+    <button id="btn3">Calculate Distances</button>
+    <!-- End of item 3 -->
+
+
+    <!--Start of Item 4-->
+    <h1>MPG Calculator</h1>
+
+    <label for="milesInput">Miles driven:</label>
+    <input type="number" id="milesInput" required>
+
+    <label for="gallonsInput">Gallons of gas used:</label>
+    <input type="number" id="gallonsInput" required>
+
+    <button onclick="calculateMPG()">Calculate MPG</button>
+
+    <p id="mpgOutput"></p>
+
+    <!--End of Item 4-->
+
+
+
+    <!--Start of Item 5-->
+    <h1>Celsius to Fahrenheit Temperature Converter</h1>
+
+    <label for="celsiusInput">Enter temperature in Celsius:</label>
+    <input type="number" id="celsiusInput" required>
+
+    <button onclick="convertTemperature()">Convert to Fahrenheit</button>
+
+    <p id="fahrenheitOutput"></p>
+    <!--End of Item 5-->
+
+    
+
+
+
+    <!--Start of Item 6-->
+    <h1>Cookie Calories</h1>
+
+    <label for="cookiesEaten">Number of cookies eaten:</label>
+    <input type="number" id="cookiesEaten" required>
+
+    <button onclick="calculateCalories()">Calculate Calories</button>
+
+    <p id="caloriesOutput"></p>
+    <!--End of Item 6-->
+
+
+
+
+    <!--Start of Item 7-->
+    <h1>Male and Female</h1>
+
+    <label for="maleCount">Number of males:</label>
+    <input type="number" id="maleCount" required>
+
+    <label for="femaleCount">Number of females:</label>
+    <input type="number" id="femaleCount" required>
+
+    <button onclick="calculatePercentages()">Calculate Percentages</button>
+
+    <p id="malePercentage"></p>
+    <p id="femalePercentage"></p>
+    <!--End of Item 7-->
+
+    
+
+    <!--javascript-->
+    <script src="Kanapi_CeoloDiane_Activity1_js.js"></script>
+</body>
+<!--
+<script>
+    function processForm(){
+        let userName = document.
+        getElementById("name").value
+        alert ("Hello " + userName + "!")
+        return false
+    }
+</script>
+-->
+</html>
